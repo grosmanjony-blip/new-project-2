@@ -10,7 +10,7 @@ df = pd.DataFrame({
 })
 
 # Create a basic bar chart
-fig = px.bar(df, x="Category", y="Value", title="Yoni2 Sample Bar Chart")
+fig = px.bar(df, x="Category", y="Value", title="Yoni 23 Sample Bar Chart")
 
 # Create Dash app
 app = dash.Dash(__name__)
